@@ -1,0 +1,265 @@
+/*  
+ *	SHIELD specific CSS 
+ *
+ *	Color palette from colllor.com
+ */
+ 	
+body {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: url('../images/chalkboard4.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+h1 {
+	font-size: 40px;
+},
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+p {
+	font-size: medium;
+	margin: 0px 0px;
+}
+
+a {
+	text-decoration: underline;
+}
+
+.box-page {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+/*
+.center-column {
+	border: 0px 1px;
+}
+*/
+
+.center-panel {
+	border-color: #ddd;	
+	margin-bottom: 0px;
+	color: #FFF;
+}
+
+.container-column-center {
+	padding: 0px 0px 30px 0px;
+}
+
+.container-column-side {
+	padding: 0px 5px 30px 5px;
+}
+
+/*** -- ABOUT Pages Colors -- ***/
+.color-about-bold {
+	background: #D0100F;
+	color: #FFF;
+} /* base color */
+
+.color-about-faded {
+	background: #FBC6C6;
+} /* 12 shades lighter - originally #FFC4C4 */
+
+.color-about-medium {
+	background: #F35353;
+	color: #FFF;
+} /* 6 shades lighter */
+
+
+/*** -- ACTIVITIES Pages Colors -- ***/
+.color-activities-bold {
+	background: #ED7F10;
+	color: #FFF;
+} /* base color */
+
+.color-activities-faded {
+	background: #FCEBD9;
+} /* 10 shades lighter - originally #FFE1C5 */
+
+.color-activities-medium {
+	background: #F6B879;
+	color: #FFF;
+} /* 5 shades lighter */
+
+
+/*** -- HOME Pages Colors -- ***/
+.color-home-bold {
+	background: #6D2A73;
+	color: #FFF;
+} /* base color */
+
+.color-home-faded {
+	background: #E0B5E3;
+} /* 12 shades lighter - originally #E2CAE3 */
+
+.color-home-medium {
+	background: #BA5BC2;
+	color: #FFF;
+} /* 6 shades lighter */
+
+
+/*** -- MEMBERSHIP Pages Colors -- ***/
+.color-membership-bold {
+	background: #378E2F;
+	color: #FFF;
+} /* base color */
+
+.color-membership-faded {
+	background: #C5EBC2;
+} /* 12 shades lighter - originally #D0E9CE */
+
+.color-membership-medium {
+	background: #6FCC66;
+	color: #FFF;
+} /* 6 shades lighter */
+
+
+/*** -- RESOURCES Pages Colors -- ***/
+.color-resources-bold {
+	background: #4B63C9;
+	color: #FFF;
+	/* Prev #C98F4B */
+} /* base color */
+
+.color-resources-faded {
+	background: #D0D6F1;
+	/* Prev #EEE5C8 */
+} /* 12 shades lighter - originally #CCDDF2 */
+
+.color-resources-medium {
+	background: #919FDE;
+	color: #FFF;
+	/* Prev #EEE5C8 */
+} /* 6 shades lighter */
+
+
+/*** -- SENIORS Pages Colors -- ***/
+/*
+.color-seniors-bold {
+	background: #4B63C9;
+}
+
+.color-seniors-faded {
+	background: #CCDDF2;
+}
+*/
+
+/*** -- SENIORS Pages Colors -- ***/
+/*
+.color-calendar-bold {
+	background: #FAD163;
+}
+
+.color-calendar-faded {
+	background: #FFF7D7;
+}
+*/
+
+.container-footer {
+	background: #979797;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.footerbar {
+	height: 40px;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.text-bold-red {
+	color: #CC0000;
+	font-weight: bold;
+}
+
+.text-lg-bold-red {
+	color: #CC0000;
+	font-size: large;
+	font-weight: bold;
+}
+
+.text-red {
+	color: #CC0000;
+}
+
+.text-bold {
+	font-weight: bold;
+}
+
+.text-sm {
+	font-size: small;
+}
+
+.text-sm-italics {
+	font-size: small;
+	font-style: italic;
+}
+
+.text-italics {
+	font-style: italic;
+}
+	
+
+/* Extra Small screen */
+/* No @media tag needed since this is the default */
+.img-sideheader{
+	height: 100%;
+	width: auto;
+	}
+
+/* Small screen */
+@media screen and (min-width:768px) {
+	.img-sideheader{
+		height: 238.2px;
+		width: 125px;
+	}
+	
+	.btn-header {
+		font-size: 12px;
+	}	
+}
+
+/* Medium screen */
+@media screen and (min-width:992px) {
+	.img-sideheader{
+		height: 231px;
+		width: 242.5px;
+	}
+	
+	.btn-header {
+		font-size: 12px;
+	}
+}
+
+/* Large screen */
+@media screen and (min-width:1200px) {
+	.img-sideheader{
+		height: 278.7px;
+		width: 292.5px;
+	}
+	
+	.btn-header {
+		font-size: 14px;
+	}
+}
